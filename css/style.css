@@ -152,27 +152,161 @@ a, .continue {
 
 .fundo-loja {
      background: #04112C;
-
 }
 
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     color: #FDB002;
+    margin-top: 30px;
 }
 
-.loja {
+.p-1{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.inscreva-se > a {
+.inscreva-se {
+    background: rgba(217, 217, 217, 0.24);
+    border-radius: 10px;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.61);
-    font-size: 15px;
-    background: rgba(217, 217, 217, 0.264);
-    padding-left: 15px;
+    padding: 10px 70px;
+    
+}
+
+.Saiba-mais {
+      background: #FDB002;
+      border-radius: 10px;
+      text-decoration: none;  
+      padding: 10px 10px;    
+}
+
+.botoes2 {
+    text-align: center;
+    margin-top: 80px;  
+}
+
+hr {
     border: none;
+    height: 5px;
+    background: linear-gradient(90deg, rgba(150,116,7,0) 1%, rgba(253,176,2,1) 49%, rgba(150,142,7,0) 99%);
+    margin-top: 20px;
+}
+
+.loja {
+    text-align: right;
+    position: relative;
+}
+
+.Camiseta {
+    margin-top: 40px;
+    width: 290px;
+    height: 300px;
+}
+
+.blur-azul {
+    z-index: -1;
+    position: absolute;
+    background: #6078ac;
+    filter: blur(100px);
+    height: 250px;
+    width: 200px;
+    top: 0;
+    right: 0;
+}
+
+.div-3 {
+    text-align: left;
+    position: relative;
+}
+
+.blur-2 {
+    z-index: -1;
+    position: absolute;
+    background: #6078ac;
+    filter: blur(100px);
+    height: 250px;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+}
+
+.itens-2 {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 290px;
+    height: 300px;
+}
+
+.itens-3 {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.cabecalho {
+    background: rgba(0, 0, 0, 0.44);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.sair {
+    background: rgba(217, 217, 217, 0.173);
+    text-decoration: none;
+    padding: 10px 30px ;
+    color: #FDB002;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h1-1 {
+    color: white;
+}
+
+.botao-catalogo {
+    align-items: center;
+    text-decoration: none;
+    padding: 10px ;
+    background: rgba(217, 217, 217, 0.16);
+    box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+    
+}
+
+.botao-amarelo{
+    color: #FDB002;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.botoes-saiba {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-laranja {
+    text-decoration: none;
+    color: #FDB002;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 50px ;
+    background: rgba(217, 217, 217, 0.16);
+    box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+    margin-top: 100px;
+    max-width: 400px;
+    min-width: 400px;
+    
    
+
+
 }
