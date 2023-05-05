@@ -104,6 +104,9 @@ p, .assine {
     border: none;
     background: none;
     border-bottom: 2px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+
   
 }
 
@@ -113,13 +116,13 @@ p, .assine {
 
 .botao {
     margin: 0% auto;
-    text-align: center;
     margin-top: 50px;
     color: white;
     text-decoration: none;
     width: 300px;
     height: 40px;  
     background: rgba(253, 176, 2, 0.76);
+    padding-top: 10px;
 }
 
 .botao1 {
@@ -304,9 +307,157 @@ hr {
     margin-left: 20px;
     margin-top: 100px;
     max-width: 400px;
-    min-width: 400px;
-    
-   
-
-
+    min-width: 400px; 
 }
+
+.botao-entrar {
+    background-color: rgba(104, 103, 107, 0.437);
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao-entrar:hover {
+    background-color: #a4a7ae53;
+}
+
+.fa-user-o {
+    padding-right: 10px;
+}
+
+.fa-caret-down {
+    padding-left: 10px;
+}
+
+.capa {
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.fa-list-ul {
+  color: white;
+    width: 40px;
+}
+
+.fa-search {
+    color: white;
+    width: 30px;
+}
+
+.capa-h2 {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.filmes-series {
+    display: flex;
+    overflow: scroll;
+    margin-top: 30px;
+}
+
+.filmes-series::-webkit-scrollbar {
+    display: none;
+}
+
+.fileira-1::-webkit-scrollbar {
+    display: none;
+}
+
+.fileira-2::-webkit-scrollbar {
+    display: none;
+}
+
+.fileira-3::-webkit-scrollbar {
+    display: none;
+}
+
+.fileira-4::-webkit-scrollbar {
+    display: none;
+}
+
+.fileira-5::-webkit-scrollbar {
+    display: none;
+}
+
+.fileira-6::-webkit-scrollbar {
+    display: none;
+}
+
+.fileira-1 > img {
+    height: 190px;
+    transition: all 500ms;
+}
+.fileira-1 img:hover{
+    height: 190px;
+    transform: scale(1.1);
+}
+
+.fileira-2 > img {
+    height: 190px;
+    transition: all 500ms;
+}
+
+.fileira-2 > img:hover {
+    height: 190px;
+    transform: scale(1.1);
+}
+
+.fileira-3 > img{
+    height: 190px;
+    transition: all 500ms;
+}
+
+.fileira-3 > img:hover{
+    height: 190px;
+    transform: scale(1.1);
+}
+
+.fileira-4 > img {
+    height: 190px;
+    transition: all 500ms;
+}
+
+
+.fileira-4 > img:hover {
+    height: 190px;
+    transform: scale(1.1);
+}
+
+.fileira-5 > img  {
+    height: 190px;
+    transition: all 500ms;
+}
+
+.fileira-5 > img:hover {
+    transform: scale(1.1);
+}
+
+.fileira-6 > img {
+    height: 190px;
+    transition: all 500ms;
+}
+
+.fileira-6 > img:hover {
+    transform: scale(1.1);
+}
+.stranger-things:hover {
+    content: url(/img/gifstranger.gif);
+}
+.toy-story:hover {
+    content: url(/img/giftoystory.gif);
+}
+
+.outer-banks:hover {
+    content: url(/img/gifouter-banks-obx.gif);
+}
+
+.insatiable:hover {
+    content: url(/img/gifinsatiable.gif);
+}
+
